@@ -1,0 +1,54 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    margin: 150px;
+    color: orange;
+}
+
+.twopart{
+    width: 50%;
+    padding: 5%;
+}
+.twopart img{
+    width: 80%;
+}
+.font-link{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding:10px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.background-pic{
+    display: flex;
+    background-image: url(bck.jpg);
+    background-repeat: no-repeat;
+}
+.new-twopart{
+    margin:80px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.new-style-twopart{
+padding:20px; 
+width: 40%;
+box-shadow: 10px 10px 40px orange;
+}
+#for-box1-style{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+#for-box2-style{
+    border-left: 5px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice:1;
+}
